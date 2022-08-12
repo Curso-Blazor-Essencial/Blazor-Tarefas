@@ -1,12 +1,11 @@
-﻿@inject HttpClient http
+﻿<PageTitle>Tarefas</PageTitle>
 
-<PageTitle>Tarefas</PageTitle>
+<h1>@Titulo</h1>
 
-<h1> Tarefas </h1>
-<hr />
 
 @if (tarefas == null)
 {
+    @* Poderia colocar um gif aqui de loading*@
     <Alerta Mensagem="Carregando..." />
     @*@<p>Carregando...</p>*@
 }
@@ -24,16 +23,13 @@ else
                 <th> Descricao </th>
                 <th> Concluida </th>
                 <th> Ação</th>
-
             </tr>
         </thead>
         <tbody>
             @foreach (var item in tarefas)
             {
                 <tr>
-                    <td>@item.DataCriacao</td>
-                    <td>@item.Descricao</td>
-                    <td><input type="checkbox" @bind="item.Concluida" /> @item.Concluida</td>
+                    <TarefaIndividual item="item"/>
                     <td><button @onclick="@(() => RemoveTarefa(item.ID))"><i class="oi oi-trash"></i></button></td>
                 </tr>
             }
@@ -53,19 +49,13 @@ else
 
 
 @code {
-    protected override async Task OnInitializedAsync() => tarefas = await http.GetFromJsonAsync<List<Tarefa>>("dados/tarefas.json");
 
-    public class Tarefa
-    {
-        public Guid ID { get; set; }
-        public string? Descricao { get; set; }
-        public bool Concluida { get; set; }
-        public DateTime DataCriacao { get; set; }
-    }
+    [Parameter] public List<Tarefa> tarefas{ get; set; }
+    [Parameter] public string Titulo { get; set; }
+
 
     private string novaTarefa = "";
 
-    private List<Tarefa> tarefas = new List<Tarefa>();
 
     void AdicionarNovaTarefa()
     {
