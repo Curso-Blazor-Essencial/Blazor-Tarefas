@@ -12,47 +12,47 @@ namespace Blazor_Tarefas.Shared
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
-#line 1 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 1 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
-#line 2 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 2 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
-#line 3 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 3 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
-#line 4 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 4 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
-#line 5 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 5 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
-#line 6 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 6 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Blazor_Tarefas;
 
 #line default
 #line hidden
-#line 7 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 7 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Blazor_Tarefas.Shared;
 
 #line default
 #line hidden
-#line 8 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 8 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Blazor_Tarefas.Entidades;
 
 #line default
 #line hidden
-#line 9 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
+#line 9 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\_Imports.razor"
 using Blazor_Tarefas.Repositorios;
 
 #line default
@@ -64,7 +64,7 @@ using Blazor_Tarefas.Repositorios;
         {
         }
         #pragma warning restore 1998
-#line 35 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\Shared\ListaGenerica.razor"
+#line 35 "C:\Users\Usuario\Downloads\20_Blazor_Tarefas_Invoke_JavaScript\Blazor_Tarefas\Blazor_Tarefas\Shared\ListaGenerica.razor"
        
     [Parameter] public RenderFragment Carregando { get; set; }
     [Parameter] public RenderFragment SemRegistro { get; set; }

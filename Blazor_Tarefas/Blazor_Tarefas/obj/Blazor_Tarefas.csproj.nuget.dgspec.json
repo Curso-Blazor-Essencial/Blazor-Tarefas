@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Documents\\GitHub\\Blazor-Tarefas\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj": {}
+    "C:\\Users\\Usuario\\Downloads\\20_Blazor_Tarefas_Invoke_JavaScript\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Documents\\GitHub\\Blazor-Tarefas\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj": {
+    "C:\\Users\\Usuario\\Downloads\\20_Blazor_Tarefas_Invoke_JavaScript\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\Blazor-Tarefas\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\20_Blazor_Tarefas_Invoke_JavaScript\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj",
         "projectName": "Blazor_Tarefas",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\Blazor-Tarefas\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\20_Blazor_Tarefas_Invoke_JavaScript\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\Blazor-Tarefas\\Blazor_Tarefas\\Blazor_Tarefas\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\20_Blazor_Tarefas_Invoke_JavaScript\\Blazor_Tarefas\\Blazor_Tarefas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

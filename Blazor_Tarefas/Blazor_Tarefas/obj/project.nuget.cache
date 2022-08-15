@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fLG59CRDjfEsmCpwKIBY2Q8+nt84/ikIcxBPnRY6FIztsvh2Gst4dLdOeiZdRaJsWGjRTeHWa13kkgG5sFCyPw==",
+  "dgSpecHash": "Du0/vlFBmw9a6SWegs3TZcy5RskVmu8H3PHezM3m5bMeOqk0QmAXumf0kQLOk6cqPI0lG/bV+sEuFC/7lDG64A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Documents\\GitHub\\Blazor-Tarefas\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\20_Blazor_Tarefas_Invoke_JavaScript\\Blazor_Tarefas\\Blazor_Tarefas\\Blazor_Tarefas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.0.0\\microsoft.aspnetcore.authorization.3.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.blazor\\3.0.0-preview9.19465.2\\microsoft.aspnetcore.blazor.3.0.0-preview9.19465.2.nupkg.sha512",
