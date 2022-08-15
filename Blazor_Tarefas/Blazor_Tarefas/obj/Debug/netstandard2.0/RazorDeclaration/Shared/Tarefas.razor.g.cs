@@ -64,7 +64,7 @@ using Blazor_Tarefas.Repositorios;
         {
         }
         #pragma warning restore 1998
-#line 35 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\Shared\Tarefas.razor"
+#line 37 "C:\Users\Usuario\Documents\GitHub\Blazor-Tarefas\Blazor_Tarefas\Blazor_Tarefas\Shared\Tarefas.razor"
       
 
     [Parameter] public List<Tarefa> tarefas { get; set; }
@@ -77,11 +77,17 @@ using Blazor_Tarefas.Repositorios;
 
     Tarefa tarefaRemover;
 
-    private void RemoveTarefa(Tarefa tarefa)
+    private async Task RemoveTarefa(Tarefa tarefa)
     {
-        confirmacao.Exibir();
-        tarefaRemover = tarefa;
-        
+        //confirmacao.Exibir();
+        //tarefaRemover = tarefa;
+        var resultado = await js.InvokeAsync<bool>("confirm", "Excluir tarefa?");
+
+        if(resultado)
+        {
+            tarefas.Remove(tarefa);
+        }
+
     }
 
     void RemoverTarefaConfirmacao()
@@ -113,6 +119,7 @@ using Blazor_Tarefas.Repositorios;
 
 #line default
 #line hidden
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime js { get; set; }
     }
 }
 #pragma warning restore 1591

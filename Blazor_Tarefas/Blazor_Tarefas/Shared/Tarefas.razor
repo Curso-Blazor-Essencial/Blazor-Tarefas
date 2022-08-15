@@ -1,4 +1,6 @@
-﻿<h1>@Titulo</h1>
+﻿@inject IJSRuntime js
+
+<h1>@Titulo</h1>
 
 <table class="table">
     <thead>
@@ -44,11 +46,17 @@
 
     Tarefa tarefaRemover;
 
-    private void RemoveTarefa(Tarefa tarefa)
+    private async Task RemoveTarefa(Tarefa tarefa)
     {
-        confirmacao.Exibir();
-        tarefaRemover = tarefa;
-        
+        //confirmacao.Exibir();
+        //tarefaRemover = tarefa;
+        var resultado = await js.InvokeAsync<bool>("confirm", "Excluir tarefa?");
+
+        if(resultado)
+        {
+            tarefas.Remove(tarefa);
+        }
+
     }
 
     void RemoverTarefaConfirmacao()
