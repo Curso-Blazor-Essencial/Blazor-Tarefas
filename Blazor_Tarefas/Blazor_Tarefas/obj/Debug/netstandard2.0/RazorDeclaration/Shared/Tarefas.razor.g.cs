@@ -107,7 +107,9 @@ using Blazor_Tarefas.Repositorios;
         tarefaRemover = null;
     }
 
-    void AdicionarNovaTarefa()
+    static int totalTarefas = 0;
+
+    async void AdicionarNovaTarefa()
     {
         if (!string.IsNullOrWhiteSpace(novaTarefa))
         {
@@ -118,7 +120,14 @@ using Blazor_Tarefas.Repositorios;
                 ID = Guid.NewGuid()
             });
             novaTarefa = "";
+            totalTarefas = tarefas.Count();
+            await js.InvokeVoidAsync("getTotalTarefas");
         }
+    }
+    [JSInvokable]
+    public static Task<int> ObterTotalTarefas()
+    {
+        return Task.FromResult(totalTarefas);
     }
 
 #line default
