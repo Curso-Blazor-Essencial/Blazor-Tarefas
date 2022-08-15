@@ -14,9 +14,12 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.8\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.8\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.blazor.mono\3.0.0-preview9.19462.2\build\netstandard1.0\Microsoft.AspNetCore.Blazor.Mono.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.blazor.mono\3.0.0-preview9.19462.2\build\netstandard1.0\Microsoft.AspNetCore.Blazor.Mono.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.blazor.build\3.0.0-preview9.19465.2\build\netstandard1.0\Microsoft.AspNetCore.Blazor.Build.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.blazor.build\3.0.0-preview9.19465.2\build\netstandard1.0\Microsoft.AspNetCore.Blazor.Build.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\Usuario\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\6.0.8</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+    <PkgMicrosoft_AspNetCore_Blazor_Mono Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_Mono)' == '' ">C:\Users\Usuario\.nuget\packages\microsoft.aspnetcore.blazor.mono\3.0.0-preview9.19462.2</PkgMicrosoft_AspNetCore_Blazor_Mono>
+    <PkgMicrosoft_AspNetCore_Blazor_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_DevServer)' == '' ">C:\Users\Usuario\.nuget\packages\microsoft.aspnetcore.blazor.devserver\3.0.0-preview9.19465.2</PkgMicrosoft_AspNetCore_Blazor_DevServer>
+    <PkgMicrosoft_AspNetCore_Blazor_Build Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_Build)' == '' ">C:\Users\Usuario\.nuget\packages\microsoft.aspnetcore.blazor.build\3.0.0-preview9.19465.2</PkgMicrosoft_AspNetCore_Blazor_Build>
   </PropertyGroup>
 </Project>

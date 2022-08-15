@@ -22,8 +22,36 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Pages/DataBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YUJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Pages/Evento1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Shared/Alerta.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFsZXJ0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Shared/Confirma.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbmZpcm1hLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Shared/ListaGenerica.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExpc3RhR2VuZXJpY2EucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Shared/TarefaIndividual.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRhcmVmYUluZGl2aWR1YWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/Shared/Tarefas.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRhcmVmYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/Documents/GitHub/Blazor-Tarefas/Blazor_Tarefas/Blazor_Tarefas/_Imports.razor]
